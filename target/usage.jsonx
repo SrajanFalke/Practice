@@ -1,0 +1,82 @@
+[
+  {
+    "source": "I am on login page",
+    "steps": [
+      {
+        "name": "I am on login page",
+        "aggregatedDurations": {
+          "median": 8.2622104,
+          "average": 7.997026400
+        },
+        "durations": [
+          {
+            "duration": 8.2622104,
+            "location": "file:src/test/java/feature/login.feature:6"
+          },
+          {
+            "duration": 6.5627065,
+            "location": "file:src/test/java/feature/login.feature:12"
+          },
+          {
+            "duration": 9.1661623,
+            "location": "file:src/test/java/feature/login.feature:12"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I enter userName \u0026 Password",
+    "steps": [
+      {
+        "name": "I enter userName \u0026 Password",
+        "aggregatedDurations": {
+          "median": 0.2292491,
+          "average": 0.229249100
+        },
+        "durations": [
+          {
+            "duration": 0.2292491,
+            "location": "file:src/test/java/feature/login.feature:7"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I click on login button",
+    "steps": [
+      {
+        "name": "I click on login button",
+        "aggregatedDurations": {
+          "median": 0.119178,
+          "average": 0.119178000
+        },
+        "durations": [
+          {
+            "duration": 0.119178,
+            "location": "file:src/test/java/feature/login.feature:8"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "I should see project dashboard",
+    "steps": [
+      {
+        "name": "I should see project dashboard",
+        "aggregatedDurations": {
+          "median": 0.0004889,
+          "average": 0.000488900
+        },
+        "durations": [
+          {
+            "duration": 0.0004889,
+            "location": "file:src/test/java/feature/login.feature:9"
+          }
+        ]
+      }
+    ]
+  }
+]

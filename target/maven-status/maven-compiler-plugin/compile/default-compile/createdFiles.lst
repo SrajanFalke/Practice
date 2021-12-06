@@ -1,0 +1,4 @@
+com\qa\google\pages\HomePage.class
+com\qa\google\base\BaseClass.class
+com\qa\google\utility\JsonReader.class
+com\qa\google\pages\GoogleImagePage.class

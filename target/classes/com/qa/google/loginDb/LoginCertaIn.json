@@ -1,0 +1,23 @@
+[
+	{
+		"adminUser": {
+			"emailUser": "test@test.com"
+		}
+	},
+	{
+		"PasswordDetails": {
+			"password": "Test@2020"
+		}
+	}
+	,
+	{
+		"nonAdminUser": {
+			"user2": "Test2@2020"
+		}
+	},
+	{
+		"nonAdminUserPassword": {
+			"user2": "Test3@2020"
+		}
+	}
+]

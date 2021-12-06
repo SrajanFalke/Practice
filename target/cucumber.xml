@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="2" tests="3" time="24.440798">
+    <testcase classname="To test login functinality with valid use case" name="Login data driven with valid case" time="8.677245">
+        <system-out><![CDATA[Given I am on login page....................................................passed
+When I enter userName & Password............................................passed
+And I click on login button.................................................passed
+Then I should see project dashboard.........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="To test login functinality with valid use case" name="Login data driven with valid case 2" time="6.585986">
+        <skipped><![CDATA[Given I am on login page....................................................passed
+When I enter srajan.falkeabc@gmail.com & srajan@abc.........................undefined
+And I click on login button.................................................skipped
+Then I should see project dashboard.........................................skipped
+]]></skipped>
+    </testcase>
+    <testcase classname="To test login functinality with valid use case" name="Login data driven with valid case 3" time="9.177567">
+        <skipped><![CDATA[Given I am on login page....................................................passed
+When I enter srajan.falkexyz@gmail.com & srajan@xyz.........................undefined
+And I click on login button.................................................skipped
+Then I should see project dashboard.........................................skipped
+]]></skipped>
+    </testcase>
+</testsuite>

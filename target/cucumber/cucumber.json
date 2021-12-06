@@ -1,0 +1,184 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-12-02T11:35:54.625Z",
+        "line": 5,
+        "name": "Login data driven with valid case",
+        "description": "",
+        "id": "to-test-login-functinality-with-valid-use-case;login-data-driven-with-valid-case",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8262210400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I am on login page",
+            "match": {
+              "location": "LoginStepDefinations.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 229249100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter userName \u0026 Password",
+            "match": {
+              "location": "LoginStepDefinations.i_enter_userName_Password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 119178000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginStepDefinations.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 488900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I should see project dashboard",
+            "match": {
+              "location": "LoginStepDefinations.i_should_see_project_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-02T11:36:03.334Z",
+        "line": 18,
+        "name": "Login data driven with valid case",
+        "description": "",
+        "id": "to-test-login-functinality-with-valid-use-case;login-data-driven-with-valid-case;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6562706500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on login page",
+            "match": {
+              "location": "LoginStepDefinations.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I enter srajan.falkeabc@gmail.com \u0026 srajan@abc",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 371500,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginStepDefinations.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1240700,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see project dashboard",
+            "match": {
+              "location": "LoginStepDefinations.i_should_see_project_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-12-02T11:36:09.930Z",
+        "line": 19,
+        "name": "Login data driven with valid case",
+        "description": "",
+        "id": "to-test-login-functinality-with-valid-use-case;login-data-driven-with-valid-case;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9166162300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I am on login page",
+            "match": {
+              "location": "LoginStepDefinations.i_am_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I enter srajan.falkexyz@gmail.com \u0026 srajan@xyz",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2154400,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "I click on login button",
+            "match": {
+              "location": "LoginStepDefinations.i_click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 640400,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "I should see project dashboard",
+            "match": {
+              "location": "LoginStepDefinations.i_should_see_project_dashboard()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "To test login functinality with valid use case",
+    "description": "  I want to use this template for my feature file",
+    "id": "to-test-login-functinality-with-valid-use-case",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/login.feature",
+    "tags": []
+  }
+]
